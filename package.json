@@ -1,0 +1,19 @@
+{
+  "name": "hw2",
+  "version": "1.0.0",
+  "description": "SOAP Web Service",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesed/pa053-soap.git"
+  },
+  "author": "Ales Sedlacek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alesed/pa053-soap/issues"
+  },
+  "homepage": "https://github.com/alesed/pa053-soap#readme"
+}
