@@ -5,8 +5,9 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
+    "clean": "rimraf ./dist",
     "build": "tsc --build",
-    "start": "tsc --build && node --experimental-specifier-resolution=node dist/index.js"
+    "start": "npm run clean && npm run build && node --experimental-specifier-resolution=node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/alesed/pa053-soap/issues"
   },
-  "homepage": "https://github.com/alesed/pa053-soap#readme"
+  "homepage": "https://github.com/alesed/pa053-soap#readme",
+  "dependencies": {
+    "rimraf": "^4.4.1",
+    "soap": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
 }
