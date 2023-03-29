@@ -1,5 +1,7 @@
 # PA053 - HW2
 
+## Introduction
+
 The goal of this assignment is to get experience with Web Service technology.
 
 You can find a web service that simulates stock market at URL:
@@ -12,3 +14,8 @@ Your goal is to trade (buy and sell) any stocks at this market in such a way tha
 The stock market is open 24/7.
 
 After successful completion of the homework, submit your zipped source codes to IS depository https://is.muni.cz/auth/el/1433/jaro2023/PA053/ode/ode_hw2/. You will obtain the assignment points only if both the successful completion of the assingment is logged for your email and the source codes are submitted to IS.
+
+## How to run
+
+1. `npm install`
+2. `npm start`
